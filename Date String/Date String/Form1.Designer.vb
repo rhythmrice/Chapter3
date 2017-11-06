@@ -103,9 +103,9 @@ Partial Class Form1
         'lblDateString
         '
         Me.lblDateString.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblDateString.Location = New System.Drawing.Point(162, 269)
+        Me.lblDateString.Location = New System.Drawing.Point(35, 269)
         Me.lblDateString.Name = "lblDateString"
-        Me.lblDateString.Size = New System.Drawing.Size(100, 23)
+        Me.lblDateString.Size = New System.Drawing.Size(339, 23)
         Me.lblDateString.TabIndex = 8
         '
         'btnShowDate
