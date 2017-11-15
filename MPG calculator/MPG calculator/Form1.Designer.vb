@@ -30,7 +30,7 @@ Partial Class Form1
         Me.ButtonExit = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lblResult = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -101,20 +101,20 @@ Partial Class Form1
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 7
         '
-        'Label4
+        'lblResult
         '
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label4.Location = New System.Drawing.Point(438, 270)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(100, 23)
-        Me.Label4.TabIndex = 8
+        Me.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblResult.Location = New System.Drawing.Point(438, 270)
+        Me.lblResult.Name = "lblResult"
+        Me.lblResult.Size = New System.Drawing.Size(100, 23)
+        Me.lblResult.TabIndex = 8
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(740, 544)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ButtonExit)
@@ -137,6 +137,6 @@ Partial Class Form1
     Friend WithEvents ButtonExit As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents lblResult As System.Windows.Forms.Label
 
 End Class
