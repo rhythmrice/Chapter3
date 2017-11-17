@@ -24,10 +24,10 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBoxGallonscanhold = New System.Windows.Forms.TextBox()
-        Me.TextBoxMilesonfulltank = New System.Windows.Forms.TextBox()
+        Me.txtGallons = New System.Windows.Forms.TextBox()
+        Me.txtMileage = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.LabelMPG = New System.Windows.Forms.Label()
+        Me.lblResult = New System.Windows.Forms.Label()
         Me.ButtCalculate = New System.Windows.Forms.Button()
         Me.ButtClear = New System.Windows.Forms.Button()
         Me.ButtExit = New System.Windows.Forms.Button()
@@ -51,19 +51,19 @@ Partial Class Form1
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Number of miles it can be driven on a full tank:"
         '
-        'TextBoxGallonscanhold
+        'txtGallons
         '
-        Me.TextBoxGallonscanhold.Location = New System.Drawing.Point(345, 85)
-        Me.TextBoxGallonscanhold.Name = "TextBoxGallonscanhold"
-        Me.TextBoxGallonscanhold.Size = New System.Drawing.Size(72, 20)
-        Me.TextBoxGallonscanhold.TabIndex = 2
+        Me.txtGallons.Location = New System.Drawing.Point(345, 85)
+        Me.txtGallons.Name = "txtGallons"
+        Me.txtGallons.Size = New System.Drawing.Size(72, 20)
+        Me.txtGallons.TabIndex = 2
         '
-        'TextBoxMilesonfulltank
+        'txtMileage
         '
-        Me.TextBoxMilesonfulltank.Location = New System.Drawing.Point(345, 172)
-        Me.TextBoxMilesonfulltank.Name = "TextBoxMilesonfulltank"
-        Me.TextBoxMilesonfulltank.Size = New System.Drawing.Size(100, 20)
-        Me.TextBoxMilesonfulltank.TabIndex = 3
+        Me.txtMileage.Location = New System.Drawing.Point(345, 172)
+        Me.txtMileage.Name = "txtMileage"
+        Me.txtMileage.Size = New System.Drawing.Size(100, 20)
+        Me.txtMileage.TabIndex = 3
         '
         'Label3
         '
@@ -74,13 +74,13 @@ Partial Class Form1
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Miles per gallon:"
         '
-        'LabelMPG
+        'lblResult
         '
-        Me.LabelMPG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.LabelMPG.Location = New System.Drawing.Point(342, 264)
-        Me.LabelMPG.Name = "LabelMPG"
-        Me.LabelMPG.Size = New System.Drawing.Size(100, 23)
-        Me.LabelMPG.TabIndex = 5
+        Me.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblResult.Location = New System.Drawing.Point(342, 264)
+        Me.lblResult.Name = "lblResult"
+        Me.lblResult.Size = New System.Drawing.Size(100, 23)
+        Me.lblResult.TabIndex = 5
         '
         'ButtCalculate
         '
@@ -117,10 +117,10 @@ Partial Class Form1
         Me.Controls.Add(Me.ButtExit)
         Me.Controls.Add(Me.ButtClear)
         Me.Controls.Add(Me.ButtCalculate)
-        Me.Controls.Add(Me.LabelMPG)
+        Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBoxMilesonfulltank)
-        Me.Controls.Add(Me.TextBoxGallonscanhold)
+        Me.Controls.Add(Me.txtMileage)
+        Me.Controls.Add(Me.txtGallons)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
@@ -131,10 +131,10 @@ Partial Class Form1
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents TextBoxGallonscanhold As System.Windows.Forms.TextBox
-    Friend WithEvents TextBoxMilesonfulltank As System.Windows.Forms.TextBox
+    Friend WithEvents txtGallons As System.Windows.Forms.TextBox
+    Friend WithEvents txtMileage As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents LabelMPG As System.Windows.Forms.Label
+    Friend WithEvents lblResult As System.Windows.Forms.Label
     Friend WithEvents ButtCalculate As System.Windows.Forms.Button
     Friend WithEvents ButtClear As System.Windows.Forms.Button
     Friend WithEvents ButtExit As System.Windows.Forms.Button
